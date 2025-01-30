@@ -1,0 +1,99 @@
+body {
+   background-color: #370617;
+   margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    /* Other way to do margins between the elements in the container instead of inside the box.
+    (keeping for remembering later)
+    column-gap: 20px;
+    row-gap: 20px; */
+}
+
+.box {
+background-color: #F48C06;
+min-width: 468px;
+min-height: 160px;
+display:flex;
+border-radius: 8px;
+margin: 20px;
+}
+
+.card {
+    background-color: #F48C06;
+    min-width: 468px;
+    min-height: 160px;
+    display:flex;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.card {
+    background-color: #9D0208;
+    min-width: 78px;
+    min-height: 78px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.L1 {
+    display:flex;
+    align-items: flex-end;
+}
+
+.L2 {
+    width: 78px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.L3 {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.L4 {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.C12 {
+    display:flex;
+    align-self: flex-end;
+}
+
+.L5 {
+    line-height: 1.7;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.C14 {
+    align-self: center;
+    width: 78px;
+    height: 64px;
+}
+
+.L6 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C17 {
+    width: 156px;
+    height: 78px;
+}
