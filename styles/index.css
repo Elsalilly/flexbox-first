@@ -7,6 +7,7 @@ body {
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     align-content: center;
     /* Other way to do margins between the elements in the container instead of inside the box.
@@ -16,19 +17,9 @@ body {
 }
 
 .box {
-background-color: #F48C06;
-min-width: 468px;
-min-height: 160px;
-display:flex;
-border-radius: 8px;
-margin: 20px;
-}
-
-.card {
     background-color: #F48C06;
     min-width: 468px;
     min-height: 160px;
-    display:flex;
     border-radius: 8px;
     margin: 20px;
 }
@@ -37,10 +28,11 @@ margin: 20px;
     background-color: #9D0208;
     min-width: 78px;
     min-height: 78px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    margin: 20px;
 }
 
 .L1 {
@@ -72,19 +64,20 @@ margin: 20px;
     align-self: flex-end;
 }
 
-.L5 {
+.L5 { 
     line-height: 1.7;
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
-    text-align: center;
 }
-
 
 .C14 {
     align-self: center;
+    flex-shrink: 1;
+    /*
     width: 78px;
     height: 64px;
+    */
 }
 
 .L6 {
@@ -94,6 +87,63 @@ margin: 20px;
 }
 
 .C17 {
-    width: 156px;
-    height: 78px;
+    display:flex;
+    flex-grow: 1;
+}
+
+.bottom {
+    background-color: #FAA307;
+}
+
+.box__bottom {
+    background-color: #03071E;
+    width: 273px;
+    height: 220px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.B2, .B4 {
+    background-color: #6A040F;
+}
+
+.circle {
+    background-color: #748CAB;
+    margin: 10px;
+    border-radius: 50%;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.B1 {
+    display: flex;
+    align-content: flex-start;
+}
+
+
+.B2 {
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.B3 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 60px;
+}
+
+.B4 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.B5 {
+    display:flex;
+    align-content: center;
+    justify-content: center;
 }
